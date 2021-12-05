@@ -1,0 +1,99 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body{
+  background-color: white;
+}
+
+textarea{
+  align-content: center;
+  margin-top: 30px;
+  margin-left:30px;
+  width: 60%;
+  height: 8vh;
+  border-radius: 10px;
+  border: 2px solid;
+  font-size: 20px;
+}
+li 
+{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+  h1 {
+    color: black;
+    text-align: center;
+    background-color: red;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3)
+  }
+
+  .AddTask{
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    background-color:#3CEB33;
+    color: #27aedb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .AddTask:hover{
+    background-color: green;
+  }
+  .delete{
+
+    height: 40px;
+    width: 80px;
+    margin-left: 50vh;
+    border-radius: 8px;
+    background-color: springgreen;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  .delete:hover{
+    background-color: red;
+  }
+
+  .edit{
+      height: 40px;
+      width: 90px;
+      margin-left: 50vh;
+      border-radius: 8px;
+      background-color:blue;
+      margin-left: 10px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+  .edit:hover{
+      background-color: purple;
+    }
+
+    .saveTask{
+
+      height: 40px;
+      width: 90px;
+      margin-left: 50vh;
+      border-radius: 8px;
+      background-color:#27aedb;
+      margin-left: 10px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .delete:hover{
+      background-color: red;
+    } 
+
+.bg-pink{
+background-color:pink;
+}
